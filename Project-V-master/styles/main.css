@@ -1,0 +1,98 @@
+body {
+  background: #658cc8;
+  margin: 0 auto;
+}
+#sign-up-form {
+  margin: 10vh auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+}
+
+.jumbotron p,
+h1 {
+  text-align: center;
+  color: white;
+}
+section {
+  margin: 0 15px;
+}
+.card {
+  margin: 15px auto;
+  padding: 10px;
+}
+.stories {
+  padding: 10px;
+  background: rgba(203, 149, 170, 0.4);
+}
+h1 {
+  width: 40vh;
+  padding: 10px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  text-shadow: 2px 2px 4px #000000;
+}
+h5 {
+  color: black;
+}
+
+p{
+  padding: 10px;
+}
+
+#pc-jumbotron {
+  background-image: url("../assets/ryzenImage.jpg");
+  background-size: cover;
+}
+#ps-jumbo {
+  background-image: url("../assets/playstationC.jpg");
+  background-size: cover;
+}
+#xb-jumbo {
+  background-image: url("../assets/xbDark.jpg");
+  background-size: cover;
+}
+#mobile-jumbo {
+  background-image: url("../assets/mobileBlue.jpg");
+  background-size: cover;
+}
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40%;
+  margin-top: 10px;
+}
+
+footer {
+  background: rgb(51, 50, 50);
+  color: white;
+  margin-bottom: 0;
+}
+.carousel-item img {
+  max-height: 60vh;
+  object-fit: contain;
+}
+
+.playstationArticle{
+  background: url("../assets/playstationC.jpg");
+  background-size: cover;
+
+}
+.xbox-article{
+  background: url("../assets/xbDark.jpg");
+  background-size: cover;
+}
+.mobile-article{
+  background: url("../assets/mobileBlue.jpg");
+  background-size: cover;
+}
+.pc-article{
+  background: url("../assets/ryzenImage.jpg");
+  background-size: cover;
+}
+.article-content{
+  background: rgba(255, 255, 255, 0.7);
+  width: 90vh;
+  margin: 0 auto;
+}

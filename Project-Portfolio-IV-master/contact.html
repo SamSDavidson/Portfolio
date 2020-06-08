@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="container p-0">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+            <div class="collapse navbar-collapse" id="toggleNav">
+                <div class="navbar-nav">
+                    <div class="navbar-brand">The National Nerd <img src="#" alt=""></div>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="gaming.html">Gaming</a>
+                    <a class="nav-item nav-link" href="tech.html">Tech</a>
+                    <a class="nav-item nav-link" href="mobile.html">Mobile </a>
+                    <a class="nav-item nav-link" href="login.html">Login</a>
+                    <a class="nav-item nav-link" href="signUp.html">Sign Up</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav"
+                aria-controls="toggleNav" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+        </nav>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Feedback / Contact</h1>
+            <p class="lead">Have any questions? Any Concerns? Let us know!</p>
+        </div>
+        <form id="contact-form" method="post" action="#"" role=" form" class="p-5">
+
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="firstName">Firstname</label>
+                        <input id="firstName" type="text" name="name" class="form-control" placeholder="Firstname"
+                            required="required" data-error="Firstname is required.">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="lastName">Lastname</label>
+                        <input id="lastName" type="text" name="surname" class="form-control" placeholder="Lastname"
+                            required="required" data-error="Lastname is required.">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="emailInput">Email</label>
+                        <input id="emailInput" type="email" name="email" class="form-control" placeholder="Email"
+                            required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="messageInput">Message</label>
+                        <textarea id="messageInput" name="message" class="form-control"
+                            placeholder="Let us know your feedback!" rows="4" required="required"
+                            data-error="Please, leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" class="btn btn-success btn-send" value="Send message">
+
+        </form>
+
+        <footer class="page-footer container-fluid p-0">
+            <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+                <div class="navbar-nav container-fluid">
+                    <div class="navbar-brand">The National Nerd <img src="#" alt=""></div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="">Facebook</a>
+                        <a class="nav-link" href="">Instagram</a>
+                        <a class="nav-link" href="">LinkedIn</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                    <p class="nav-item">12345 E Anywhere ST. New York, New York, 12345</p>
+                </div>
+            </nav>
+        </footer>
+    </div>
+
+</body>
+<script src="scripts/jquery-3.4.1.slim.js"></script>
+<script src="scripts/popper.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+
+</html>
