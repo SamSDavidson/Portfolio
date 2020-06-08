@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "samueldavidson",
+    "password": null,
+    "database": "shipt",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "samueldavidson",
+    "password": null,
+    "database": "shipit_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  },
+  "circleci": {
+    "username": "circleci",
+    "password": null,
+    "database": "circlecidb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "staging": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}

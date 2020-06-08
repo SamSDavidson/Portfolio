@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="container p-0">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+            <div class="collapse navbar-collapse" id="toggleNav">
+                <div class="navbar-nav">
+                    <div class="navbar-brand">The National Nerd <img src="#" alt=""></div>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="gaming.html">Gaming</a>
+                    <a class="nav-item nav-link" href="tech.html">Tech</a>
+                    <a class="nav-item nav-link" href="mobile.html">Mobile </a>
+                    <a class="nav-item nav-link" href="login.html">Login</a>
+                    <a class="nav-item nav-link" href="signUp.html">Sign Up</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav"
+                aria-controls="toggleNav" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+        </nav>
+
+        <img class="logo img-fluid" src="images/logo_transparent_md.svg" alt="national nerd logo">
+
+        <h1 class="text-center p-3">Log In</h1>
+        <form class="p-4 mb-5">
+            <div class="form-group">
+                <label for="inputUsername">Username</label>
+                <input type="text" class="form-control" id="inputUsername" aria-describedby="usernameInput"
+                    placeholder="Enter Username" required>
+
+                <p>No account? <a href="signUp.html">Create a new account!</a></p>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+
+
+        <footer class="page-footer container-fluid p-0">
+            <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+                <div class="navbar-nav container-fluid">
+                    <div class="navbar-brand">The National Nerd <img src="#" alt=""></div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="">Facebook</a>
+                        <a class="nav-link" href="">Instagram</a>
+                        <a class="nav-link" href="">LinkedIn</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                    <p class="nav-item">12345 E Anywhere ST. New York, New York, 12345</p>
+                </div>
+            </nav>
+        </footer>
+    </div>
+
+</body>
+<script src="scripts/jquery-3.4.1.slim.js"></script>
+<script src="scripts/popper.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+
+</html>
