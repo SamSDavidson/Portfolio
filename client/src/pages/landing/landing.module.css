@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet');
+body{
+  background-image: url('../../assets//paintSwatches.jpg');
+  background-size: cover;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(50vh/2);
+  background: rgba(255, 166, 0, 0);
+}
+.pageCards{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1, h2{
+  font-family: 'Permanent Marker', cursive;
+}
