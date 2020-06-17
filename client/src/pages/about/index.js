@@ -20,6 +20,7 @@ class About extends Component {
           </section>
           <section>
             <h2>Skills</h2>
+            <hr></hr>
             <h3>Web Development</h3>
             <ListGroup horizontal>
               <ListGroupItem color="info">HTML</ListGroupItem>
@@ -90,10 +91,19 @@ class About extends Component {
                   <td>Internet Repair Specialist</td>
                 </tr>
                 <tr>
-                  <th scope="row">University</th>
-                  <td>Full Sail University</td>
-                  <td>Web Design & Development</td>
-                  <td>2020</td>
+                  <th scope="row">2018-2019</th>
+                  <td>ActivEngage</td>
+                  <td>Chat Specialist</td>
+                </tr>
+                <tr>
+                  <th scope="row">2017-2018</th>
+                  <td>AAA</td>
+                  <td>Customer Service Representative</td>
+                </tr>
+                <tr>
+                  <th scope="row">2015-2018</th>
+                  <td>CCBill</td>
+                  <td>Technical Support Agent</td>
                 </tr>
               </tbody>
             </Table>
