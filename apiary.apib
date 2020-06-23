@@ -1,0 +1,53 @@
+FORMAT: 1A
+HOST: https://polls.apiblueprint.org/
+
+# SSDevelops
+
+Polls is a simple API allowing consumers to view polls and vote in them.
+
+## Data Structures
+
+### Post
++ id: `3e836f45-5f86-4a9a-a27b-17e71b60317e` (string, required) - Unique Identifier (uuid)
++ title: A Proposal of a greater Journey (string, required)
++ content: 'Thrice upon a summer day' (string, required)
+
+# Group Post Collection
+
+## /posts
+### GET
+Get all the posts
+
++ Response 200 (application/json)
+    + Attributes (array[Post])
+
+### POST
+Create a new Post
++ Request (application/json)
+    + Attributes (object)
+        + title: WAI (string, required)
+        + content: EAR (string, required)
+        + userId: '3e836f45-5f86-4a9a-a27b-17e71b603173' (string)
++ Response 201 (application/json)
+    + Attributes (Post)
+
+## /posts/{id}
++ Parameters
+    + id: `3e836f45-5f86-4a9a-a27b-17e71b60317d` (string) - Post id
+
+### GET
+Get one post by id
+
++ Response 200 (application/json)
+    + Attributes (Post)
+
+### PUT
+Update a post by id
+
++ Response 202 (application/json)
+    + Attributes (Post)
+
+### DELETE
+Delete a post
+
++ Response 202
