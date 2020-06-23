@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, ListGroup, ListGroupItem, Table, ListGroupItemHeading } from 'reactstrap';
 import Header from '../../components/header/index';
+import MetaTags from 'react-meta-tags';
 import styles from './about.module.css';
 
 class About extends Component {
