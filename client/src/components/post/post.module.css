@@ -1,0 +1,7 @@
+.post{
+  background: rgba(255, 255, 255, 0.658);
+  max-width: 80vh;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 50px;
+}
