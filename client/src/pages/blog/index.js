@@ -11,53 +11,37 @@ class Blog extends Component {
     const { fetchPosts } = this.props;
     fetchPosts();
   }
-
   render() {
-    const posts = this.props;
+    const { posts } = this.props;
+
     return (
       <div>
-        <MetaTags>
-          <title>Blog</title>
-          <meta name="blog" content="Blog content"></meta>
-          <meta name="keywords" content="blog, samuel davidson blog, web developer blog"></meta>
-        </MetaTags>
-        <Header />
+
+      <Header />
+        <h1>Recent Posts</h1>
         {posts.length === 0 ? (
           <div>
-            <h2>No blog posts loaded yet!</h2>
+            <h2>No Posts loaded yet!</h2> <p>Be the first to add a post!</p>
           </div>
         ) : (
           <div>
-            <Row>
-              {' '}
               {posts.map(post => (
-                <Col xs="3" key={post.id}>
-                  {' '}
-                  <Post post={post} />{' '}
-                </Col>
+                  <Post post={post} />
               ))}
-            </Row>
           </div>
-          )}
+        )}
       </div>
-    )
+    );
   }
 }
 
 Blog.propTypes = {
-  posts: PropTypes.arrayOf(PropTypes.object)
+  posts: PropTypes.arrayOf(PropTypes.object),
+  fetchPosts: PropTypes.func.isRequired
 };
 Blog.defaultProps = {
   posts: [
-    {
-    title: 'A First Post',
-    content:'Hello! This is my first post to this blog!'
-  },
-  {
-    title:'Blank Post',
-    content:'This is a blank post'
-  }
-]
+  ]
 };
 
 
