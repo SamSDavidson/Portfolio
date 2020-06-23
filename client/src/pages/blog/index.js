@@ -18,7 +18,7 @@ class Blog extends Component {
       <div>
 
       <Header />
-        <h1>Recent Posts</h1>
+        <h1>Blog Posts</h1>
         {posts.length === 0 ? (
           <div>
             <h2>No Posts loaded yet!</h2> <p>Be the first to add a post!</p>
