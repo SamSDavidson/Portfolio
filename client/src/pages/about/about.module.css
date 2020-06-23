@@ -17,3 +17,10 @@ p{
   font-size: 1.6rem;
   font-family: 'Handlee', cursive;
 }
+th, td{
+  color: white;
+  text-shadow: 1px 1px black;
+}
+nav{
+  font-family: 'Handlee', cursive;
+}

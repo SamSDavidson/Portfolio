@@ -21,7 +21,7 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar color="light" light expand="md">
         <NavbarBrand href="/">SSDevelops</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -36,7 +36,6 @@ const Header = (props) => {
               <NavLink href="/blog">Blog</NavLink>
             </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>

@@ -7,6 +7,11 @@ class About extends Component {
   render() {
     return (
       <div>
+        <MetaTags>
+          <title>About</title>
+          <meta name="About" content="About content"></meta>
+          <meta name="keywords" content="about,contact,resume,samuel davidson resume"></meta>
+        </MetaTags>
         <Header />
         <h1>About Sam</h1>
         <Container fluid>
