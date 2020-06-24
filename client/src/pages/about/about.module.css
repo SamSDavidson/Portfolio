@@ -4,6 +4,7 @@ h2, h3{
   padding: 1rem;
   font-family: 'Handlee', cursive;
 
+  font-weight: 500;
 }
 section{
   display: flex;
@@ -16,10 +17,12 @@ h2{
 p{
   font-size: 1.6rem;
   font-family: 'Handlee', cursive;
+  text-shadow: 1px 1px black;
+  font-weight: 500;
 }
 th, td{
-  color: white;
-  text-shadow: 1px 1px black;
+  color: black;
+  font-weight: 500;
 }
 nav{
   font-family: 'Handlee', cursive;
